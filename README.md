@@ -1,8 +1,8 @@
 # Bitcoin Simple Advertisement Board
 This repository contains simple examples of how you can use the apirone.com receive payments API to process bitcoin payments.
 
-Example show that generated addresses related to supplied identifier. These addresses are reusable. We will endlessly monitor it regardless of payments because the Store can sell the same goods repeatedly. Or you can use this address to top-up user's account balance in a project, for example, the game balance or advertisement balance.
-We show paid advertisement on the top of page and last five unpaid messages at the bottom. Paid advertisement sorted descently by total peid amount.
+Example shows that generated addresses related to supplied identifier. These addresses are reusable. We will endlessly monitor them regardless of payments because the Store can sell the same products repeatedly. Or you can use this address to top-up user's account balance in a project, for example, an account user in a video game.
+We show paid advertisement on the top of page and last five unpaid messages at the bottom. Paid advertisement sorted descently by total paid amount.
 
 Further documentation & explanation can be found at: https://apirone.com/docs/bitcoin-forwarding-api
 
