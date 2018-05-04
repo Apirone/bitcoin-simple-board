@@ -21,4 +21,4 @@ http://board.bitcoinexamples.com/
 * Now the database is initialized open the demo
 * http://your_site/index.php
 
-Read more at integrations/bitcoin-simple-advertisement-board
+Read more at https://apirone.com/integrations/bitcoin-simple-advertisement-board
