@@ -8,6 +8,9 @@ Further documentation & explanation can be found at: https://apirone.com/docs/bi
 
 This code is intended as educational reference material and is not written for production use.
 
+# Live Demo
+http://board.bitcoinexamples.com/
+
 # Instructions
 * Clone the git repository into the ROOT of your web server.
 * cd /www/
@@ -17,3 +20,5 @@ This code is intended as educational reference material and is not written for p
 * http://your_site/setup.php
 * Now the database is initialized open the demo
 * http://your_site/index.php
+
+Read more at integrations/bitcoin-simple-advertisement-board
