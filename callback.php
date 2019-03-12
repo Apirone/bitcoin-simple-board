@@ -2,9 +2,6 @@
 
 include 'include.php';
 
-// compare owner address
-if ($_GET['destination_address'] != $my_bitcoin_address) { die ('Incorrect Receiving Address');}
-
 // compare secret string
 if ($_GET['secret'] != $secret) { die ('Invalid Secret');}
 
@@ -29,6 +26,8 @@ if ($_GET['confirmations'] == 0) {
 	if (!$success) { die(__LINE__ . ' Invalid query: ' . mysql_error());}
 } else {
 
+	// compare owner address
+	if ($_GET['destination_address'] != $my_bitcoin_address) { die ('Incorrect Receiving Address');}
 
 	if ($_GET['confirmations'] < $count_of_confirmations) {
 		// Update count of confirmations
