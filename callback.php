@@ -3,7 +3,7 @@
 include 'include.php';
 
 // compare owner address
-if ($_GET['address'] != $my_bitcoin_address) { die ('Incorrect Receiving Address');}
+if ($_GET['destination_address'] != $my_bitcoin_address) { die ('Incorrect Receiving Address');}
 
 // compare secret string
 if ($_GET['secret'] != $secret) { die ('Invalid Secret');}
